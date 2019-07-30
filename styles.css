@@ -5,3 +5,12 @@ h1 {color:blue;}
 table {border:2px solid black; border-collapse:collapse;}
 th,td {border:1px solid black; padding:5px;text-align:center;}
 th {background-color:lightgray;}
+.container {
+	display:flex;
+	flex-wrap:wrap;}
+.container > div {
+	background-color:spinggreen;
+	font-size:10px;
+	margin:10px;
+	padding:10px;
+	width:100px;}
